@@ -1,0 +1,91 @@
+body{
+    background: #7aac08;
+}
+
+.presentacion{
+    height: 400px;
+    width: 360px;
+    display: flex;
+    margin: auto;
+    border-radius: 7px;
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.presentacion .img{
+    width: 50%;
+    border-radius: 7px;
+}
+
+.TITULO{
+    margin: auto;
+    background: tomato;
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.5);
+
+}
+
+.presentacion .img img{
+    width: 100%;
+    height: 100%;
+    vertical-align: top;
+    border-radius: 7px;
+}
+
+.inicio {
+    width: 50%;
+    border-radius: 0 7px 10px 7px;
+    background: #7aac08;
+	
+}
+
+.controlstot{
+    padding-top: 9%;
+    font-size: 20px;
+}
+
+.elevacion{
+	padding-top: 18px;
+}
+
+.rotacion{
+	padding-top: 56px;
+}
+
+	
+	input[type="range"] {
+		outline: 0;
+		border: 0;
+		border-radius: 500px;
+		width: 400px;
+		max-width: 100%;
+		margin: 24px 0 16px;
+		transition: box-shadow 0.2s ease-in-out;
+	
+		@media screen and (-webkit-min-device-pixel-ratio:0) {
+			& {
+				overflow: hidden;
+				height: 40px;
+				-webkit-appearance: none;
+				background-color: #ddd;
+			}
+			::-webkit-slider-runnable-track {
+				height: 40px;
+				-webkit-appearance: none;
+				color: #444;
+				
+				transition: box-shadow 0.2s ease-in-out;
+			}
+			::-webkit-slider-thumb {
+				width: 40px;
+				-webkit-appearance: none;
+				height: 40px;
+				cursor: ew-resize;
+				background: #fff;
+				box-shadow: -340px 0 0 320px #1597ff, inset 0 0 0 40px #1597ff;
+				border-radius: 50%;
+				transition: box-shadow 0.2s ease-in-out;
+				position: relative;
+            }
+		}
+	}

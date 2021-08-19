@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Brazo Wi-Fi</title>
+    <script src="https://unpkg.com/mqtt/dist/mqtt.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mqtt/4.2.6/mqtt.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paho-mqtt/1.0.1/mqttws31.js" type="text/javascript"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style2.css">
+    <section class="content">
+        <div class="presentacion">
+            <div class="img">
+                <img src="brazOrtModFlechitas.png" alt="">
+            </div>
+        <div class="inicio">
+            <h4 class="TITULO">Brazo Robot Wi-Fi Mecatronica</h4>
+            <div class="controlstot">
+            <div class = "Avance"> 
+        <input type="range" name="avanze" id="avanze" min="200" max="380" value="200" step="10" oninput="enviarAvanze()">
+     </div><br>
+            <div class = "garra">
+        <input type="range" name="garra" id="garra" min="400" max="580" value="400" step="10" oninput="enviarGarra()">
+    </div>
+        <div class = "elevacion">
+        <input type="range" name="elevacion" id="elevacion" min="0" max="180" value="0" step="10" oninput="enviarElevacion()">
+    </div>
+        <div class = "rotacion"> 
+            <input type="range" name="girar" id="girar" min="600" max="780" value="600" step="10" oninput="enviarGirar()">
+    </div>
+    </div>
+    </div>  
+    </div> 
+    </section>
+</head>
+<body>
+    
+</body>
+</html>
