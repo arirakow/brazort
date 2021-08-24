@@ -45,12 +45,18 @@ body{
 }
 
 .elevacion{
-	padding-top: 18px;
+	padding-top: 34px;
 }
 
 .rotacion{
 	padding-top: 56px;
 }
+
+.garra{
+	padding-top: 17px;
+}
+
+
 
 	
 	input[type="range"] {

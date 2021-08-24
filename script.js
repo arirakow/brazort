@@ -23,12 +23,14 @@ function enviarAvanze(){
 
 }
 
-function enviarGarra(){
-    var enviarGarra;
-    enviarGarra = document.getElementById("garra").value;
-    console.log("brazort", enviarGarra);
-    client.publish("brazort", enviarGarra);
+function enviarGarraCerrada(){
+    client.publish("brazort", '400');
+    console.log("brazort", '400');
+}
 
+function enviarGarraAbierta(){
+    client.publish("brazort", '580');
+    console.log("brazort", '580');
 }
 
 function enviarGirar(){

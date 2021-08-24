@@ -22,7 +22,8 @@
         <input type="range" name="avanze" id="avanze" min="200" max="380" value="200" step="10" oninput="enviarAvanze()">
      </div><br>
             <div class = "garra">
-        <input type="range" name="garra" id="garra" min="400" max="580" value="400" step="10" oninput="enviarGarra()">
+        <input type="button" name="garra" id="garra" onclick="enviarGarraCerrada()" value="Cerrada">
+        <input type="button" name="garra" id="garra" onclick="enviarGarraAbierta()" value="Abierta">
     </div>
         <div class = "elevacion">
         <input type="range" name="elevacion" id="elevacion" min="0" max="180" value="0" step="10" oninput="enviarElevacion()">
